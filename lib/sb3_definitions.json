@@ -32,7 +32,15 @@
         "scalarVal": {
             "oneOf": [
                 {"$ref":"#/definitions/stringOrNumber"},
-                {"type": "boolean"}
+                {"type": "boolean"},
+                {
+                    "type": "array",
+                    "items": {"$ref":"#/definitions/scalarVal"}
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": {"$ref":"#/definitions/scalarVal"}
+                }
             ]
         },
         "assetId": {
