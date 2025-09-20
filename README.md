@@ -1,6 +1,7 @@
-# @turbowarp/scratch-parser
+# @DashBlocks/scratch-parser
 
-scratch-parser with bug fixes.
+Edited scratch-parser for use in Dash.
+Forked from @turbowarp/scratch-parser
 
 ## License
 
