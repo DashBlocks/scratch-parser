@@ -24,6 +24,7 @@
     "@turbowarp/jszip": "^3.11.0",
     "@turbowarp/sb3fix": "^0.3.0",
     "ajv": "6.3.0",
+    "buffer": "^6.0.3",
     "pify": "4.0.1"
   },
   "devDependencies": {
